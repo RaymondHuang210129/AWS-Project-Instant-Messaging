@@ -1,0 +1,52 @@
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Usage: send <user> <friend> <message>
+No such user exist
+No such user exist
+Success!
+<<<test_hw4_user1->test_hw4_user2: Hi my friend user2>>>
+test_hw4_user3 is not your friend
+<<<test_hw4_user1->test_hw4_user4: Hi my friend user4>>>
+Success!
+Success!
+<<<test_hw4_user2->test_hw4_user1: Hi my friend user1>>>
+Success!
+<<<test_hw4_user2->test_hw4_user3: Hi my friend user3>>>
+test_hw4_user4 is not your friend
+test_hw4_user1 is not your friend
+Success!
+<<<test_hw4_user3->test_hw4_user2: Hi my friend user2>>>
+Success!
+<<<test_hw4_user3->test_hw4_user4: Hi my friend user4>>>
+Success!
+<<<test_hw4_user4->test_hw4_user1: Hi my friend user1>>>
+test_hw4_user2 is not your friend
+Success!
+<<<test_hw4_user4->test_hw4_user3: Hi my friend user3>>>
+Bye!
+Bye!
+test_hw4_user2 is not online
+test_hw4_user3 is not your friend
+Success!
+<<<test_hw4_user1->test_hw4_user4: Hi my friend user4>>>
+Success!
+<<<test_hw4_user4->test_hw4_user1: Hi my friend user1>>>
+test_hw4_user2 is not your friend
+test_hw4_user3 is not online
+Bye!
+Bye!

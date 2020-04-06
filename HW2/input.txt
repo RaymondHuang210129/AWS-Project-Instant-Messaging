@@ -1,0 +1,23 @@
+register ray1 111 
+register ray2 222 
+register ray3 333 
+login ray1 111 
+login ray2 222 
+login ray3 333 
+invite ray1 ray2 
+accept-invite ray2 ray1 
+invite ray2 ray3 
+accept-invite ray3 ray2 
+list-friend ray1 
+list-friend ray2 
+list-friend ray3 
+post ray1 Hi I am A 
+post ray2 Hi I am B 
+post ray3 Hi I am C 
+receive-post ray1 
+receive-post ray2 
+receive-post ray3 
+delete ray1 
+delete ray2
+delete ray3
+exit

@@ -1,0 +1,112 @@
+STATUS | wrapper  | 2018/12/10 22:52:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/12/10 22:52:02 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/10 22:52:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/10 22:52:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/10 22:52:03 | 
+INFO   | jvm 1    | 2018/12/10 22:52:03 | Java Runtime: Oracle Corporation 9.0.4 C:\Program Files\Java\jre-9.0.4
+INFO   | jvm 1    | 2018/12/10 22:52:03 |   Heap sizes: current=131072k  free=118822k  max=1048576k
+INFO   | jvm 1    | 2018/12/10 22:52:03 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=S0OzXhJGtfToSUB6 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=21028 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/10 22:52:03 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/10 22:52:03 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2018/12/10 22:52:03 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2018/12/10 22:52:03 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2018/12/10 22:52:03 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2018/12/10 22:52:03 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2018/12/10 22:52:08 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/10 22:52:08 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5121b378: startup date [Mon Dec 10 22:52:08 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | PListStore:[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-51989-1544453529328-0:1) is starting
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Listening for connections at: tcp://LAPTOP-QHB4PNJK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Listening for connections at: amqp://LAPTOP-QHB4PNJK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Listening for connections at: stomp://LAPTOP-QHB4PNJK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Listening for connections at: mqtt://LAPTOP-QHB4PNJK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Listening for connections at ws://LAPTOP-QHB4PNJK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-51989-1544453529328-0:1) started
+INFO   | jvm 1    | 2018/12/10 22:52:09 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/10 22:52:10 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/10 22:52:10 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/10 22:52:10 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+STATUS | wrapper  | 2018/12/11 21:06:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/12/11 21:06:30 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/11 21:06:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/11 21:06:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/11 21:06:31 | 
+INFO   | jvm 1    | 2018/12/11 21:06:31 | Java Runtime: Oracle Corporation 9.0.4 C:\Program Files\Java\jre-9.0.4
+INFO   | jvm 1    | 2018/12/11 21:06:31 |   Heap sizes: current=131072k  free=118822k  max=1048576k
+INFO   | jvm 1    | 2018/12/11 21:06:31 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=8I7FwGbJzaWqurml -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5936 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/11 21:06:31 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/11 21:06:31 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2018/12/11 21:06:31 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2018/12/11 21:06:31 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2018/12/11 21:06:31 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2018/12/11 21:06:31 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2018/12/11 21:06:36 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/11 21:06:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@76b65e6a: startup date [Tue Dec 11 21:06:36 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | PListStore:[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | Recovery replayed 2929 operations from the journal in 0.109 seconds.
+INFO   | jvm 1    | 2018/12/11 21:06:37 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-50154-1544533597784-0:1) is starting
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Listening for connections at: tcp://LAPTOP-QHB4PNJK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Listening for connections at: amqp://LAPTOP-QHB4PNJK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Listening for connections at: stomp://LAPTOP-QHB4PNJK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Listening for connections at: mqtt://LAPTOP-QHB4PNJK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Listening for connections at ws://LAPTOP-QHB4PNJK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-50154-1544533597784-0:1) started
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/11 21:06:38 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/11 21:06:39 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+STATUS | wrapper  | 2018/12/19 17:31:19 | --> Wrapper Started as Console
+STATUS | wrapper  | 2018/12/19 17:31:19 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/19 17:31:22 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/19 17:31:22 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/19 17:31:22 | 
+INFO   | jvm 1    | 2018/12/19 17:31:22 | Java Runtime: Oracle Corporation 9.0.4 C:\Program Files\Java\jre-9.0.4
+INFO   | jvm 1    | 2018/12/19 17:31:22 |   Heap sizes: current=131072k  free=119313k  max=1048576k
+INFO   | jvm 1    | 2018/12/19 17:31:22 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=y0x9u192i1hMcW7p -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16740 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/19 17:31:22 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/19 17:31:22 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2018/12/19 17:31:22 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2018/12/19 17:31:22 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2018/12/19 17:31:22 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2018/12/19 17:31:22 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2018/12/19 17:31:35 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/19 17:31:35 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4d8dc38d: startup date [Wed Dec 19 17:31:35 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/19 17:31:36 |  INFO | PListStore:[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2018/12/19 17:31:36 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Google Drive\Acer 桌面\桌面\課堂作業\網程設\HW4\apache-activemq-5.9.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2018/12/19 17:31:37 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/19 17:31:37 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Recovery replayed 26913 operations from the journal in 1.922 seconds.
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-64121-1545211899342-0:1) is starting
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Listening for connections at: tcp://LAPTOP-QHB4PNJK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Listening for connections at: amqp://LAPTOP-QHB4PNJK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Listening for connections at: stomp://LAPTOP-QHB4PNJK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Listening for connections at: mqtt://LAPTOP-QHB4PNJK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Listening for connections at ws://LAPTOP-QHB4PNJK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | Apache ActiveMQ 5.9.1 (localhost, ID:LAPTOP-QHB4PNJK-64121-1545211899342-0:1) started
+INFO   | jvm 1    | 2018/12/19 17:31:39 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/19 17:31:40 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/19 17:31:40 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/19 17:31:41 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+STATUS | wrapper  | 2018/12/19 19:06:07 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2018/12/19 19:06:08 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2018/12/19 19:06:08 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2018/12/19 19:06:08 | <-- Wrapper Stopped
